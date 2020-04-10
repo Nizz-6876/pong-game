@@ -60,6 +60,7 @@ function draw() {
     ball.velocityY = 5;
     gameState = "play";
   }
+  console.log(ball.x);
 
   //make the userPaddle move with the mouse
   userPaddle.y = World.mouseY;
